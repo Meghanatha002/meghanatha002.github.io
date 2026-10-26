@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Meghanatha Reddy Pallem — Cybersecurity Engineer & Technology Enthusiast. Explore projects in network security, cloud, SIEM and AI security." />
+  <title>Meghanatha Reddy Pallem — Cybersecurity & Technology</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="project-data.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header" id="top">
+    <div class="header-inner wrap">
+      <a class="wordmark" href="#home" aria-label="Meghanatha Reddy Pallem, back to home">M<span>R</span></a>
+      <div class="header-actions"><a class="social-icon" href="https://www.linkedin.com/in/meghanatha-reddy-p/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a><a class="social-icon" href="https://github.com/Meghanatha002" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a><button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-panel" aria-label="Open navigation"><span></span><span></span><span></span></button></div>
+    </div>
+  </header>
+  <div class="menu-backdrop" id="menu-backdrop" hidden></div>
+  <nav class="menu-panel" id="menu-panel" aria-label="Main navigation" aria-hidden="true">
+    <div class="menu-head"><span class="wordmark">M<span>R</span></span><button class="close-menu" id="close-menu" aria-label="Close navigation">×</button></div>
+    <a href="#home">01 <span>Home</span></a><a href="#about">02 <span>About Me</span></a><a href="#projects">03 <span>Projects</span></a><a href="#skills">04 <span>Skills & Tech Stack</span></a><a href="#certifications">05 <span>Certifications</span></a><a href="#achievements">06 <span>Community & Milestones</span></a><a href="#connect">07 <span>Connect</span></a>
+    <div class="menu-foot">Charlotte, North Carolina<br/><a href="https://www.linkedin.com/in/meghanatha-reddy-p/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a> &nbsp; <a href="https://github.com/Meghanatha002" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+  </nav>
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal"><span class="eyebrow">HELLO, I'M</span><h1>Meghanatha <em>Reddy Pallem</em></h1><p class="hero-title">Cybersecurity Engineer &amp; Technology Enthusiast</p><p class="hero-description">I work at the intersection of cybersecurity, networking, cloud infrastructure, and AI. Through hands-on projects, I explore secure systems, intelligent technologies, and practical solutions to complex problems. I’m also interested in opportunities across AI security, evaluation, and related AI-focused roles.</p><div class="buttons"><a class="button primary" href="#projects">Explore My Work <span>↓</span></a><a class="button secondary" href="#about">Learn More</a></div><div class="hero-facts"><span>⌖ &nbsp;Charlotte, NC</span><span>▣ &nbsp;3+ years of experience</span><span>◇ &nbsp;M.S. Cybersecurity</span></div></div>
+        <div class="hero-visual reveal">
+          <div class="avatar-display" aria-label="Illustrated portrait of Meghanatha Reddy Pallem">
+            <div class="avatar-depth-shadow" aria-hidden="true"></div>
+            <img class="avatar-final-image" src="assets/bitmoji-portrait.webp" alt="Friendly Bitmoji-inspired illustrated portrait of Meghanatha Reddy Pallem with a Hey There greeting" width="1268" height="1152" decoding="async" fetchpriority="high" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section about" id="about"><div class="wrap slim reveal"><span class="eyebrow">01 / ABOUT</span><h2>Curious by nature.<br/><em>Driven to build.</em></h2><p>I hold a Master of Science in Cybersecurity from the University of North Carolina at Charlotte. My interests span network security, cloud infrastructure, detection and response, AI security, and the broader field of applied artificial intelligence. I enjoy learning through real projects and documenting what I build.</p><div class="about-metrics"><div><strong>3+</strong><span>Years of experience</span></div><div><strong>10</strong><span>Projects to explore</span></div><div><strong>3</strong><span>Industry certifications</span></div></div></div></section>
+    <section class="section projects-section" id="projects"><div class="wrap"><div class="section-heading reveal"><div><span class="eyebrow">02 / PROJECTS</span><h2>Things I've <em>built.</em></h2><p>Hands-on projects across cybersecurity, cloud, networking, and security analytics. This collection will grow over time.</p></div></div><div class="filter-row" id="project-filters" aria-label="Filter projects"><button class="chip active" data-category="All" aria-pressed="true">All Projects</button><button class="chip" data-category="Network Security" aria-pressed="false">Network Security</button><button class="chip" data-category="Cloud Security" aria-pressed="false">Cloud Security</button><button class="chip" data-category="Analytics" aria-pressed="false">Analytics</button><button class="chip" data-category="AI" aria-pressed="false">AI &amp; Assistive Tech</button></div><div class="project-grid" id="project-grid"></div><p class="project-note">More projects will be added here as I build them.</p></div></section>
+    <section class="section skills-section" id="skills"><div class="wrap"><div class="section-heading reveal"><div><span class="eyebrow">03 / SKILLS</span><h2>Explore my <em>tech stack.</em></h2><p>Search for a tool or skill, or browse by category. Search results are based on my documented toolkit—not guesses.</p></div></div><div class="skill-search-card reveal"><form id="skill-form" class="skill-form"><label for="skill-query">Looking for a particular tool or technology?</label><div class="skill-search-row"><input id="skill-query" type="search" autocomplete="off" placeholder="Try Splunk, Palo Alto, Python, Kubernetes..."/><button class="button primary" type="submit">Search ↗</button></div></form><div class="search-examples"><span>Try:</span><button type="button" data-try="Splunk">Splunk</button><button type="button" data-try="Terraform">Terraform</button><button type="button" data-try="Palo Alto">Palo Alto</button><button type="button" data-try="Kubernetes">Kubernetes</button></div><div class="search-result" id="skill-result" role="status" aria-live="polite">Type a skill above and hit Search to explore my toolkit.</div></div><div id="skills-categories" class="skills-groups"></div></div></section>
+    <section class="section credentials" id="certifications"><div class="wrap"><div class="section-heading reveal"><div><span class="eyebrow">04 / CREDENTIALS</span><h2>Certifications <em>&amp; education.</em></h2></div></div><div class="credential-grid"><article class="credential-card"><span class="credential-icon">◈</span><h3>CCNA</h3><p>Cisco Certified Network Associate</p></article><article class="credential-card"><span class="credential-icon">✦</span><h3>CompTIA Security+</h3><p>Security certification</p></article><article class="credential-card"><span class="credential-icon">◇</span><h3>AWS Certified AI Practitioner</h3><p>Amazon Web Services</p></article></div><div class="education-card"><span class="eyebrow">EDUCATION</span><h3>Master of Science in Cybersecurity</h3><p>University of North Carolina at Charlotte · 2026</p></div></div></section>
+    <section class="section achievements" id="achievements"><div class="wrap slim reveal"><span class="eyebrow">05 / COMMUNITY & MILESTONES</span><h2>Learning, connecting <em>&amp; growing.</em></h2><p class="community-intro">I enjoy learning beyond coursework and projects through cybersecurity conferences, technical events, hands-on competitions, and collaborative research.</p><div class="achievement-card"><div class="achievement-medal">03</div><div><h3>3rd Place — BSides Charlotte 2026 CTF</h3><p>Competed in a live Hack The Box capture-the-flag event at BSides Charlotte 2026 with a two-person team, finishing 3rd out of 19 teams. The challenges called for hands-on security problem solving, analytical thinking, and steady collaboration under time pressure. It was an opportunity to put technical knowledge into practice and learn from the wider security community.</p><span class="muted">Cybersecurity · Practical problem solving · Collaboration</span></div></div><div class="community-note publication-card"><span class="eyebrow">RESEARCH PUBLICATION · JULY 2024</span><h3>Published research — Elderly Assistance and Health Monitoring System</h3><p>Co-authored a research paper published in the <em>International Journal of Engineering Research in Computer Science and Engineering</em> (IJERCSE), Volume 11, Issue 7, July 2024. The paper presents a combined hardware and software system for fall detection, health monitoring, emergency alerts, and accessible speech-based communication.</p><p class="publication-meta">Collaborative research · Arduino &amp; sensors · Assistive technology · Python</p><p class="muted">The complete paper is not hosted here because it contains personal contact information.</p></div><div class="community-note"><span class="eyebrow">TECH COMMUNITY</span><h3>Conferences &amp; technology events</h3><p>I attend cybersecurity conferences and technology-focused gatherings to learn about emerging security practices, connect with professionals, and exchange ideas. I’ll add verified event highlights here as I document them.</p></div></div></section>
+    <footer class="footer section" id="connect"><div class="wrap footer-inner"><div><span class="eyebrow">06 / CONNECT</span><h2>Let's stay <em>connected.</em></h2><p>Interested in cybersecurity, technology, and building a more secure digital world.</p><span class="footer-location">⌖ Charlotte, North Carolina</span></div><div class="footer-links"><a href="https://www.linkedin.com/in/meghanatha-reddy-p/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/Meghanatha002" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#top">Back to top ↑</a></div></div><div class="wrap footer-end"><span>© <span id="year"></span> Meghanatha Reddy Pallem</span></div></footer>
+  </main>
+
+  <!-- Project dialog: opens above the current page; content scrolls inside. -->
+  <div class="project-modal-backdrop" id="project-modal-backdrop" hidden>
+    <section class="project-modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <div class="modal-topbar"><span class="modal-kicker">PROJECT / DEEP DIVE</span><button type="button" class="modal-close" id="modal-close" aria-label="Close project details">×</button></div>
+      <div class="modal-scroll" id="modal-scroll"><div id="modal-content"></div></div>
+    </section>
+  </div>
+</body>
+</html>
